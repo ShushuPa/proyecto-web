@@ -1,0 +1,134 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    
+}
+.contacto{
+   display:flex;
+   justify-content: center;
+}
+.logo1{
+   height: 80px;
+   margin: 1%;
+   padding: 0%;
+}
+.logo2{
+   height: 30px;  
+}
+.navright{
+float: right;
+}
+
+header{
+   background-color: #cef8f3;
+  width: 100%;   
+}
+.sectionheader{
+   display: flex;
+   justify-content: space-between;
+}
+.logo{
+   justify-content: space-between;
+   display: flex;
+   flex-direction: row;
+}
+.titulo{
+   padding: 1%;
+   width: 500px;
+   margin-top: 0.8em;
+}
+.a1{
+   color: black;
+   text-decoration: none;
+   width: 150%;
+}
+
+.iconos{
+   display: flex;
+   justify-content: space-evenly;
+   width: 10em;
+   align-items: center;
+}
+.divisor{
+   display: flex;
+}
+.menu{
+   justify-content: space-between;
+   display: flex;
+   width: 60% ;
+   margin: auto;
+}
+.menu li, a{
+   text-decoration: none;
+   list-style: none;
+   color: black;
+}
+.menu a:hover{
+   color:rgb(87, 187, 182);
+}
+.nav{
+   background-color: #b1dfd9;
+}
+.carrousel{
+   width: 100%;
+   justify-content: center;
+}
+.centro{
+   display: flex;
+   align-content: center;
+   width: 10em;
+}
+.pasos{
+   justify-content: center;
+   display: flex;
+   margin: auto;
+   flex-direction: column;
+   text-align: center;
+}
+.pasos-general{
+   display: flex;
+   justify-content: center;
+   margin: 4em;
+   align-content: space-between;
+}
+.titulo-secundario{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 1em;
+   margin-top: 1em;
+}
+.mapa{
+   width: 100%;
+  margin: auto;
+}
+.botoncito{
+   margin-left: 0em;
+   margin-bottom: 0em;
+}
+.footer{
+   display: flex;
+   justify-content: space-between;
+}
+.redsocial{
+   text-align: center;
+}
+footer{
+   background-color:   #b1dfd9;
+   padding: 2em;
+}
+.listafooter{
+   text-decoration: none;
+   list-style: none;
+   color: black;
+}
+
+.establecimientos{
+   margin-top: -4em;
+   margin-bottom: 4em;
+   padding-left: 0.5em;
+   background-color: rgb(87, 187, 182);
+}

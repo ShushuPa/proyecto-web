@@ -1,0 +1,228 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: 'Jost', sans-serif;
+     
+ }
+
+.logo1{
+    height: 80px;
+    margin: 1%;
+    padding: 0%;
+}
+.logo2{
+    height: 30px;  
+}
+.navright{
+ float: right;
+}
+
+header{
+    background-color: #cef8f3;
+   width: 100%;   
+}
+.sectionheader{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.titulo{
+    font-size: 1.5em;
+    font-family: 'Jost', sans-serif;
+    padding: 1%;
+    width: 500px;
+    margin-top: 0.8em;
+}
+.a1{
+    color: black;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    width: 150%;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 10em;
+    align-items: center;
+}
+.divisor{
+    display: flex;
+}
+.menu{
+    justify-content: space-between;
+    display: flex;
+    width: 60% ;
+    margin: auto;
+}
+.menu li, a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.menu a:hover{
+    color:rgb(87, 187, 182);
+}
+.nav{
+    background-color: #b1dfd9;
+}
+.carrousel{
+    width: 100%;
+    justify-content: center;
+}
+.centro{
+    align-content: center;
+    width: 10em;
+}
+.pasos{
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+}
+.pasos-general{
+    display: flex;
+    justify-content: center;
+    margin: 4em;
+    align-content: space-between;
+}
+.titulo-secundario{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-bottom: 1em;
+}
+.mapa{
+    display: flex;
+ justify-content: space-around;
+}
+.mapa img, iframe{
+   width: 100%;
+   border-radius: 4%;
+   margin-bottom: 1em;
+}
+.mapa article{
+    display: flex;
+    flex-direction: column;
+   width: 20%;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.redsocial{
+    text-align: center;
+}
+footer{
+    background-color:   #b1dfd9;
+    padding: 2em;
+}
+.listafooter{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.establecimientos{
+    margin-top: -4em;
+    margin-bottom: 4em;
+    padding-left: 0.5em;
+    background-color: rgb(87, 187, 182);
+}
+.bci{
+    background-color: #cef8f3;
+    border:solid #b0f0e8 ;
+    margin-bottom: 0.5em;
+   
+}
+.articlebci{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 1em;
+
+}
+.selec1{
+    margin: 0.1em;
+    width: 75%;
+}
+.selec2{
+    margin: 0.1em;
+}
+.titulo-secundario1{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5em;
+}
+.establecimiento{
+    display: flex;
+}
+.establecimiento img{
+    width: 15%;
+    padding: 1em;
+}
+.establecimiento li{
+    text-decoration: none;
+    list-style: none;
+}
+.establecimiento h3{
+    justify-content: space-between;
+    margin: 0.4em;
+}
+.establecimiento ul{
+    margin: 0.5em;
+}
+.filtrar-provincia{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.imagengrande{
+    width: 45%;
+}
+.imagenpequeña{
+    width: 30%;
+}
+.proximoscursos{
+    display: flex;
+}
+.textocentrado{
+    text-align: center;
+}
+.sedesanjusto{
+    display: flex;
+    padding: 2em;
+    justify-content: space-around;
+}
+.infosede{
+    padding: 0.3em;
+    font-size: 1.3em;
+}
+.displayflex{
+    display: flex;
+    padding: 2em;
+}
+.li1{
+    font-weight: bold;
+}
+.boton-sede{
+justify-content: center;
+margin-left: 0.5em;
+}
+button:hover{
+background-color: rgb(87, 187, 182);
+}
+.h3sede{
+
+}
